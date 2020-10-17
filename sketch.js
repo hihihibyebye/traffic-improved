@@ -22,13 +22,13 @@ var deformaton=0.5 * weight * speed * speed/22509;
     car.shapeColor="red";
   }
 
-if (deformaton=>180 && deformaton<100)
+if (deformaton>180 && deformaton<100)
 
   {
     car.shapeColor="yellow";
   }
 
-  if (deformaton=>100)
+  if (deformaton>100)
   {
     car.shapeColor="green";
   }
